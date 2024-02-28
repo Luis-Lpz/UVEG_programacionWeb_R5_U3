@@ -1,0 +1,67 @@
+*{
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background: url(classroom.jpg);
+    background-size: cover;
+}
+
+.contenedor{
+    background: linear-gradient(135deg, rgba(165, 165, 165, 0.308), rgba(153, 181, 141, 0.027));
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.342);
+    border-radius: 15px;
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+form{
+    display: grid;
+}
+
+h1{
+    color: #000000;
+    text-align: center;
+}
+
+input{
+    border: 0;
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+    margin-left: 45px;
+}
+
+p{
+    color: #000000;
+    margin: 5px;
+    margin-left: 45px;
+}
+
+button{
+    border-radius: 4px;
+    border: 0;
+    background: #68b67e;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 150px;
+    
+    box-shadow: 0 0 5px #68b67e,
+    0 0 25px #68b67e;
+}
+
+button:hover{
+    box-shadow: 0 0 5px #9efcb8,
+    0 0 25px #9efcb8, 0 0 30px #9efcb8;
+}
+
+button:active{
+    background: #9efcb8;
+    box-shadow: 0 0 5px #9efcb8,
+    0 0 25px #9efcb8, 0 0 30px #9efcb8;
+}

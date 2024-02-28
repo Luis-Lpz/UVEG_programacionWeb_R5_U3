@@ -1,0 +1,40 @@
+*{
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background: url(classroom.jpg);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, rgba(165, 165, 165, 0.308), rgba(153, 181, 141, 0.027));
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.342);
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+img{
+    height: 20%;
+    align-self: center;
+}
+
+h1{
+    color: #000000;
+    text-align: center;
+}
+
+p{
+    color: #000000;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+}
